@@ -1,0 +1,32 @@
+{
+    "Error": {
+      "description": "<p>Hemos encontrado un inconveniente.</p><p>Tu puedes <retry>recargar esta pagina</retry> que tu visitaste.</p>",
+      "title": "Algo salio mal!"
+    },
+    "IndexPage": {
+      "description": "Bienvenido al sitio",
+      "title": "Hola mundo!!"
+    },
+    "LocaleLayout": {
+      "title": "Hola mundo!!"
+    },
+    "LocaleSwitcher": {
+      "label": "Cambio de lenguaje",
+      "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} es {es Espaniol} other {Unknown}}"
+    },
+    "Manifest": {
+      "name": "Hola mundo!!"
+    },
+    "Navigation": {
+      "home": "Inicio",
+      "pathnames": "Registro"
+    },
+    "NotFoundPage": {
+      "description": "Vuelva a verificar la barra de direcciones del navegador o utilice la navegación para ir a una página conocida.",
+      "title": "No se encontro la pagina"
+    },
+    "PathnamesPage": {
+      "description": "",
+      "title": "Registro"
+    }
+  }

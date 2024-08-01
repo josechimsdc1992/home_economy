@@ -1,0 +1,32 @@
+{
+    "Error": {
+      "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+      "title": "Something went wrong!"
+    },
+    "IndexPage": {
+      "description": "Welcome the site",
+      "title": "Hello Word!"
+    },
+    "LocaleLayout": {
+      "title": "Hello Word!"
+    },
+    "LocaleSwitcher": {
+      "label": "Change language",
+      "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} es {es Spanish} other {Unknown}}"
+    },
+    "Manifest": {
+      "name": "Hello Word!"
+    },
+    "Navigation": {
+      "home": "Home",
+      "pathnames": "Register"
+    },
+    "NotFoundPage": {
+      "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+      "title": "Page not found"
+    },
+    "PathnamesPage": {
+      "description": "",
+      "title": "Register"
+    }
+  }
