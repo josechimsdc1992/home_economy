@@ -71,10 +71,12 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Lint with Next.js
         run: npm run lint
+      - name: Create Build Directory
+        run: mkdir ./out
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dir
+          path: ./out
 
   # Deployment job
   deploy:
