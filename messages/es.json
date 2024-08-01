@@ -25,6 +25,10 @@
       "description": "Vuelva a verificar la barra de direcciones del navegador o utilice la navegación para ir a una página conocida.",
       "title": "No se encontro la pagina"
     },
+    "PageLayout": {
+      "description": "",
+      "title": ""
+    },
     "PathnamesPage": {
       "description": "",
       "title": "Registro"

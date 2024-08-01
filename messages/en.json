@@ -25,6 +25,10 @@
       "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
       "title": "Page not found"
     },
+    "PageLayout": {
+      "description": "",
+      "title": ""
+    },
     "PathnamesPage": {
       "description": "",
       "title": "Register"
