@@ -72,11 +72,13 @@ jobs:
       - name: Lint with Next.js
         run: npm run lint
       - name: Create Build Directory
-        run: mkdir -p ./next
+        run: mkdir -p ./out
+      - name: Se logs
+        run: du --summarize --human-readable *
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./next
+          path: ./out
 
   # Deployment job
   deploy:
