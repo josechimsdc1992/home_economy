@@ -74,7 +74,7 @@ jobs:
       - name: Create Build Directory
         run: mkdir -p ./out
       - name: Se logs
-        run: du --summarize --human-readable *
+        run: ls -ad .*
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
